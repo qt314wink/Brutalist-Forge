@@ -35,6 +35,8 @@ import TactileSynthesisModule from './pages/TactileSynthesisModule';
 import EnigmaEngineModule from './pages/EnigmaEngineModule';
 import LiveCanvasModule from './pages/LiveCanvasModule';
 import AgencyBuilderModule from './pages/AgencyBuilderModule';
+import InteractiveHeroModule from './pages/InteractiveHeroModule';
+import StoryHeroModule from './pages/StoryHeroModule';
 
 const GLITCH_VARIANTS = {
   initial: { skew: 0, x: 0 },
@@ -505,6 +507,8 @@ export default function App() {
             {page === 'module-enigma' && <EnigmaEngineModule setPage={setPage} />}
             {page === 'module-livecanvas' && <LiveCanvasModule setPage={setPage} />}
             {page === 'module-agency' && <AgencyBuilderModule setPage={setPage} />}
+            {page === 'module-interactive-hero' && <InteractiveHeroModule setPage={setPage} />}
+            {page === 'module-story-hero' && <StoryHeroModule setPage={setPage} />}
           </motion.div>
         </AnimatePresence>
       </main>

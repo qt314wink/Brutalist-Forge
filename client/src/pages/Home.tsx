@@ -164,6 +164,26 @@ export default function Home({ setPage }: { setPage: (p: string) => void }) {
       desc: "Processing modes for intake, breakdown, translation, and strategy. Lean in hard to productize ideas and create automated workflows.",
       span: "md:col-span-12 md:row-span-2",
       type: "banner"
+    },
+    { 
+      title: "Physics Protocol", 
+      icon: <Box size={48}/>, 
+      color: "bg-[#CCFF00]", 
+      id: "module-interactive-hero", 
+      narrative: "Vol 17: Tactile Feedback",
+      desc: "Interactive physics nodes that respond to drag and drop. Feel the collision.",
+      span: "md:col-span-6 md:row-span-1",
+      type: "wide"
+    },
+    { 
+      title: "Story Panels", 
+      icon: <Layers size={48}/>, 
+      color: "bg-[#33CCFF]", 
+      id: "module-story-hero", 
+      narrative: "Vol 18: Progressive Disclosure",
+      desc: "Comic book style narrative flow. Each panel expands the story.",
+      span: "md:col-span-6 md:row-span-1",
+      type: "wide"
     }
   ];
 
@@ -187,7 +207,7 @@ export default function Home({ setPage }: { setPage: (p: string) => void }) {
               </h2>
             </div>
             <div className="bg-black text-white font-black uppercase px-6 py-2 md:px-8 md:py-3 border-[6px] border-white shadow-[8px_8px_0_#FFFF00] transform rotate-2 mt-8 md:mt-0 text-xl md:text-2xl self-start md:self-end">
-              16 Issues Included!
+              18 Issues Included!
             </div>
           </div>
 
