@@ -28,6 +28,18 @@
   },
   "rewrites": [
     {
+      "source": "/sandbox",
+      "destination": {
+        "service": "mockup-sandbox"
+      }
+    },
+    {
+      "source": "/sandbox/(.*)",
+      "destination": {
+        "service": "mockup-sandbox"
+      }
+    },
+    {
       "source": "/(.*)",
       "destination": {
         "service": "app"
